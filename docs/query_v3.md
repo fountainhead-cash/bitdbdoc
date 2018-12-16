@@ -14,9 +14,9 @@ sidebar_label: Query Engine
 
 ## 1. Why
 
-Bitquery is a query language implementation for [BitDB](https://bitdb.network), a universal bitcoin database.
+Bitquery is a query language implementation for [BitDB](https://bitdb.fountainhead.cash), a universal bitcoin database.
 
-Once the BitDB [crawler](https://docs.bitdb.network/docs/crawler) and [indexer](indexer) are up and running, you can query your BitDB node any way you want. It's just a MongoDB instance after all.
+Once the BitDB [crawler](https://bitdbdocs.fountainhead.cash/docs/crawler) and [indexer](indexer) are up and running, you can query your BitDB node any way you want. It's just a MongoDB instance after all.
 
 Because the **WRITE** (crawling + indexing) is deterministic (like a mathematical function), we can be sure that querying BitDB will be equivalent to querying Bitcoin.
 
@@ -457,7 +457,7 @@ Find 10 OP_RETURN transactions that contains "hello" as the second push data:
 1. The first push data (b0) is `{"op": 106}` (OP_RETURN)
 2. The second push data in UTF encoding (s1) is "hello"
 
-[Try Query](https://bitdb.network/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAib3V0LmIwIjogeyAib3AiOiAxMDYgfSwKICAgICAgIm91dC5zMSI6ICJoZWxsbyIKICAgIH0sCiAgICAibGltaXQiOiAxMAogIH0KfQ==)
+[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAib3V0LmIwIjogeyAib3AiOiAxMDYgfSwKICAgICAgIm91dC5zMSI6ICJoZWxsbyIKICAgIH0sCiAgICAibGltaXQiOiAxMAogIH0KfQ==)
 
 ```
 {
@@ -476,7 +476,7 @@ Find 10 OP_RETURN transactions that contains "hello" as the second push data:
 
 Find 10 transactions where the second push data is "6d02" in hex encoding
 
-[Try Query](https://bitdb.network/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogeyAib3V0LmgxIjogIjZkMDIiIH0sCiAgICAibGltaXQiOiAxMAogIH0KfQ==)
+[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogeyAib3V0LmgxIjogIjZkMDIiIH0sCiAgICAibGltaXQiOiAxMAogIH0KfQ==)
 
 ```
 {
@@ -492,7 +492,7 @@ Find 10 transactions where the second push data is "6d02" in hex encoding
 
 Find 10 transactions where [the second push data is "00424554"](https://github.com/fyookball/ChainBet/blob/master/PROTOCOL.md#op_return-communication-messages)
 
-[Try Query](https://bitdb.network/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogeyAib3V0LmgxIjogIjAwNDI0NTU0IiB9LAogICAgImxpbWl0IjogMTAKICB9Cn0=)
+[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogeyAib3V0LmgxIjogIjAwNDI0NTU0IiB9LAogICAgImxpbWl0IjogMTAKICB9Cn0=)
 
 
 ```
@@ -509,7 +509,7 @@ Find 10 transactions where [the second push data is "00424554"](https://github.c
 
 Find 10 transactions where the second push data is "6d02" in hex encoding, and the second push data matches "bet" in UTF8 (Note that it's combined with a full text search query for efficiency. Learn more about speeding up MongoDB regular expression queries here: [How to Speed-Up MongoDB Regex Queries by a Factor of up-to 10](https://medium.com/statuscode/how-to-speed-up-mongodb-regex-queries-by-a-factor-of-up-to-10-73995435c606))
 
-[Try Query](https://bitdb.network/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAiJHRleHQiOiB7ICIkc2VhcmNoIjogImJldCIgfSwKICAgICAgIm91dC5oMSI6ICI2ZDAyIiwKICAgICAgIm91dC5zMiI6IHsgIiRyZWdleCI6ICJiZXQiLCAiJG9wdGlvbnMiOiAiaSIgfQogICAgfSwKICAgICJsaW1pdCI6IDEwCiAgfQp9)
+[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAiJHRleHQiOiB7ICIkc2VhcmNoIjogImJldCIgfSwKICAgICAgIm91dC5oMSI6ICI2ZDAyIiwKICAgICAgIm91dC5zMiI6IHsgIiRyZWdleCI6ICJiZXQiLCAiJG9wdGlvbnMiOiAiaSIgfQogICAgfSwKICAgICJsaW1pdCI6IDEwCiAgfQp9)
 
 ```
 {
@@ -529,7 +529,7 @@ Find 10 transactions where the second push data is "6d02" in hex encoding, and t
 
 Find 10 transactions with an input script with the sender `qq4kp3w3yhhvy4gm4jgeza4vus8vpxgrwc90n8rhxe`
 
-[Try Query](https://bitdb.network/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogeyAiaW4uZS5hIjogInFxNGtwM3czeWhodnk0Z200amdlemE0dnVzOHZweGdyd2M5MG44cmh4ZSIgfSwKICAgICJsaW1pdCI6IDEwCiAgfQp9)
+[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogeyAiaW4uZS5hIjogInFxNGtwM3czeWhodnk0Z200amdlemE0dnVzOHZweGdyd2M5MG44cmh4ZSIgfSwKICAgICJsaW1pdCI6IDEwCiAgfQp9)
 
 ```
 {
@@ -605,7 +605,7 @@ For example, you may be looking for a transaction that matches a certain OP_RETU
 
 By default all BitDB queries return the entire transaction, so you may want to ask it to only return the matched OP_RETURN output. You can do this by using MongoDB's [Positional Operator $](https://docs.mongodb.com/manual/reference/operator/projection/positional/).
 
-[Try Query](https://bitdb.network/v3/explorer/ewogICJ2IjogMiwKICAiZSI6IHsgIm91dC5iMSI6ICJoZXgiIH0sCiAgInEiOiB7CiAgICAiZmluZCI6IHsgIm91dC5iMSI6ICI2ZDAyIiB9LAogICAgImxpbWl0IjogMTAsCiAgICAicHJvamVjdCI6IHsKICAgICAgIm91dC4kIjogMQogICAgfQogIH0KfQ==)
+[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMiwKICAiZSI6IHsgIm91dC5iMSI6ICJoZXgiIH0sCiAgInEiOiB7CiAgICAiZmluZCI6IHsgIm91dC5iMSI6ICI2ZDAyIiB9LAogICAgImxpbWl0IjogMTAsCiAgICAicHJvamVjdCI6IHsKICAgICAgIm91dC4kIjogMQogICAgfQogIH0KfQ==)
 
 ```
 {

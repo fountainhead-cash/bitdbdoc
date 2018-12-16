@@ -23,8 +23,8 @@ const users = [
 const siteConfig = {
   title: 'bitdb', // Title for your website.
   tagline: 'Random Access Memory for Bitcoin',
-  url: 'https://docs.bitdb.network', // Your website URL
-  cname: 'docs.bitdb.network',
+  url: 'https://bitdbdocs.fountainhead.cash', // Your website URL
+  cname: 'bitdbdocs.fountainhead.cash',
   baseUrl: '/',
   //baseUrl: '/bitdbdoc/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -32,18 +32,18 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'bitdbdoc',
-  organizationName: '21centurymotorcompany',
+  projectName: 'bitdbdocs',
+  organizationName: 'fountainhead.cash',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { href: "https://github.com/21centurymotorcompany/bitdbdoc", label: "Edit This Page" },
-    { href: "https://twitter.com/_unwriter", label: "Twitter" },
-    { href: "https://t.me/joinchat/HH1DDQ8pZlSlsdNcKgIcxw", label: "Chat" },
-    { href: "https://bitdb.network/v3/explorer", label: "Explorer" },
+    { href: "https://github.com/fountainhead-cash/bitdbdoc", label: "Edit This Page" },
+    // { href: "https://twitter.com/fountainhead-cash", label: "Twitter" },
+    { href: "https://t.me/fountainheadcash", label: "Chat" },
+    { href: "https://bitdb.fountainhead.cash/v3/explorer", label: "Explorer" },
 
     /*
     {doc: 'doc4', label: 'API'},
@@ -82,7 +82,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()}`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

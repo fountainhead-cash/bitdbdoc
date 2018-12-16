@@ -6,7 +6,7 @@ sidebar_label: BitDB
 
 **Random Access Memory for Bitcoin**
 
-[https://bitdb.network](https://bitdb.network)
+[https://bitdb.fountainhead.cash](https://bitdb.fountainhead.cash)
 
 <br>
 
@@ -24,11 +24,9 @@ sidebar_label: BitDB
 
 Before diving in, here are some useful links that may be helpful in your journey with BitDB:
 
-> **Twitter:** Follow [@_unwriter](https://twitter.com/_unwriter) on Twitter for bitdb related announcements
+>**Github:** [BitDB Github Repository](https://github.com/fountainhead-cash/bitd). BitDB is 100% open sourced.
 >
->**Github:** [BitDB Github Repository](https://github.com/21centurymotorcompany/bitd). BitDB is 100% open sourced.
->
->**Telegram:** Have questions? [Join the chat](https://t.me/joinchat/HH1DDQ8pZlSlsdNcKgIcxw) and meet other BitDB users and developers.
+>**Telegram:** Have questions? [Join the chat](https://t.me/fountainheadcash) and meet other BitDB users and developers.
 
 ---
 
@@ -136,9 +134,9 @@ It's just a regular MongoDB query wrapped in a meta-query object "q":
 
 This type of powerful query is possible because BitDB crawls, parses, and indexes all Bitcoin transactions in a structured document format, to which you can run any complex queries.
 
-> Learn more about BitDB Document Format [here](https://docs.bitdb.network/docs/indexer)
+> Learn more about BitDB Document Format [here](https://bitdbdocs.fountainhead.cash/docs/indexer)
 >
-> Learn more about BitDB Query Language [here](https://docs.bitdb.network/docs/query_v3)
+> Learn more about BitDB Query Language [here](https://bitdbdocs.fountainhead.cash/docs/query_v3)
 
 Also, since the query language itself is JSON, the query is portable, can be implemented in any programming language, and can even be sent over HTTP. BitDB nodes can provide HTTP API endpoints that decentralized 3rd party applications can connect to.
 

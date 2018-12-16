@@ -1,6 +1,6 @@
 # BitDB Documentation
 
-This repository compiles into the documentation website at [https://docs.bitdb.network/docs/bitdb](https://docs.bitdb.network/docs/bitdb)
+This repository compiles into the documentation website at [https://bitdbdocs.fountainhead.cash/docs/bitdb](https://bitdbdocs.fountainhead.cash/docs/bitdb)
 
 # How to Contribute
 
