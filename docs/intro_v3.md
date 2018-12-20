@@ -169,7 +169,7 @@ This is the main part that contains the actual MongoDB query. [Learn more](query
 
 Find all transactions where the first push data is "hello" in UTF8 
 
-[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogeyAib3V0LnMxIjogImhlbGxvIiB9LAogICAgImxpbWl0IjogMTAKICB9Cn0=)
+[Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogeyAib3V0LnMxIjogImhlbGxvIiB9LAogICAgImxpbWl0IjogMTAKICB9Cn0=)
 
 ```
 {
@@ -189,7 +189,7 @@ Here's an example:
 
 Find all transactions that start with "6d02" in hex as the first push data. 
 
-[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAiZSI6IHsgIm91dC5iMSI6ICJoZXgiIH0sCiAgInEiOiB7CiAgICAiZmluZCI6IHsgIm91dC5iMSI6ICI2ZDAyIiB9LAogICAgImxpbWl0IjogMTAKICB9Cn0=)
+[Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAiZSI6IHsgIm91dC5iMSI6ICJoZXgiIH0sCiAgInEiOiB7CiAgICAiZmluZCI6IHsgIm91dC5iMSI6ICI2ZDAyIiB9LAogICAgImxpbWl0IjogMTAKICB9Cn0=)
 
 ```
 {
@@ -210,7 +210,7 @@ Find all transactions where one of its outputs starts with "6d02" in hex, but al
 > 1. You can use full text search on s-prefixed attributes.
 > 2. Full text search is applied universally over all s-attributes so you can't search against a specific attribute
 
-[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAiZSI6IHsgIm91dC5iMSI6ICJoZXgiIH0sCiAgInEiOiB7CiAgICAiZmluZCI6IHsKICAgICAgIiR0ZXh0IjogewogICAgICAgICIkc2VhcmNoIjogImJldCIKICAgICAgfSwKICAgICAgIm91dC5iMSI6ICI2ZDAyIgogICAgfSwKICAgICJsaW1pdCI6IDEwCiAgfQp9)
+[Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAiZSI6IHsgIm91dC5iMSI6ICJoZXgiIH0sCiAgInEiOiB7CiAgICAiZmluZCI6IHsKICAgICAgIiR0ZXh0IjogewogICAgICAgICIkc2VhcmNoIjogImJldCIKICAgICAgfSwKICAgICAgIm91dC5iMSI6ICI2ZDAyIgogICAgfSwKICAgICJsaW1pdCI6IDEwCiAgfQp9)
 
 ```
 {
@@ -233,7 +233,7 @@ It is recommended that you use it in conjunction with a full text search to filt
 
 Example: Find all transactions where the second push data matches the UTF8 regular expression `/hello.*/i` 
 
-[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAiJHRleHQiOiB7CiAgICAgICAgIiRzZWFyY2giOiAiaGVsbG8iCiAgICAgIH0sCiAgICAgICJvdXQuczIiOiB7CiAgICAgICAgIiRyZWdleCI6ICJoZWxsby4qIiwgIiRvcHRpb25zIjogImkiCiAgICAgIH0KICAgIH0sCiAgICAibGltaXQiOiAxMAogIH0KfQ==)
+[Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAiJHRleHQiOiB7CiAgICAgICAgIiRzZWFyY2giOiAiaGVsbG8iCiAgICAgIH0sCiAgICAgICJvdXQuczIiOiB7CiAgICAgICAgIiRyZWdleCI6ICJoZWxsby4qIiwgIiRvcHRpb25zIjogImkiCiAgICAgIH0KICAgIH0sCiAgICAibGltaXQiOiAxMAogIH0KfQ==)
 
 ```
 {
@@ -256,7 +256,7 @@ Find all transactions sent from the address `qq4kp3w3yhhvy4gm4jgeza4vus8vpxgrwc9
 > So if you want to query all transactions input edge address, you use "in.e.a" (input.edge.address)
 > Learn more [here](https://bitdbdocs.fountainhead.cash/docs/indexer#level-3-graph)
 
-[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAiaW4uZS5hIjogInFxNGtwM3czeWhodnk0Z200amdlemE0dnVzOHZweGdyd2M5MG44cmh4ZSIKICAgIH0sCiAgICAibGltaXQiOiAxMAogIH0KfQ==)
+[Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAiaW4uZS5hIjogInFxNGtwM3czeWhodnk0Z200amdlemE0dnVzOHZweGdyd2M5MG44cmh4ZSIKICAgIH0sCiAgICAibGltaXQiOiAxMAogIH0KfQ==)
 
 ```
 {
@@ -275,7 +275,7 @@ Find all transactions sent from the address `qq4kp3w3yhhvy4gm4jgeza4vus8vpxgrwc9
 
 Find all transactions sent from the address `qq4kp3w3yhhvy4gm4jgeza4vus8vpxgrwc90n8rhxe` and received by `qpne29ue8chsv9pxv653zxdhjn45umm4esyds75nx6`
 
-[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAiaW4uZS5hIjogInFxNGtwM3czeWhodnk0Z200amdlemE0dnVzOHZweGdyd2M5MG44cmh4ZSIsCiAgICAgICJvdXQuZS5hIjogInFwbmUyOXVlOGNoc3Y5cHh2NjUzenhkaGpuNDV1bW00ZXN5ZHM3NW54NiIKICAgIH0sCiAgICAibGltaXQiOiAxMAogIH0KfQ==)
+[Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAiaW4uZS5hIjogInFxNGtwM3czeWhodnk0Z200amdlemE0dnVzOHZweGdyd2M5MG44cmh4ZSIsCiAgICAgICJvdXQuZS5hIjogInFwbmUyOXVlOGNoc3Y5cHh2NjUzenhkaGpuNDV1bW00ZXN5ZHM3NW54NiIKICAgIH0sCiAgICAibGltaXQiOiAxMAogIH0KfQ==)
 
 
 ```
@@ -295,7 +295,7 @@ Find all transactions sent from the address `qq4kp3w3yhhvy4gm4jgeza4vus8vpxgrwc9
 
 Find all transactions that contain an **OP_RETURN** output (**output.b0** `{ op: 106 }`) 
 
-[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAib3V0LmIwIjogewogICAgICAgICJvcCI6IDEwNgogICAgICB9CiAgICB9LAogICAgImxpbWl0IjogMTAKICB9Cn0=)
+[Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAib3V0LmIwIjogewogICAgICAgICJvcCI6IDEwNgogICAgICB9CiAgICB9LAogICAgImxpbWl0IjogMTAKICB9Cn0=)
 
 ```
 {
@@ -313,7 +313,7 @@ Find all transactions that contain an **OP_RETURN** output (**output.b0** `{ op:
 
 Find all transactions that contain Multisig transactions (**output.b5** `{ op: 174 }`) 
 
-[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAib3V0LmI1IjogewogICAgICAgICJvcCI6IDE3NAogICAgICB9CiAgICB9LAogICAgImxpbWl0IjogMTAKICB9Cn0=)
+[Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAib3V0LmI1IjogewogICAgICAgICJvcCI6IDE3NAogICAgICB9CiAgICB9LAogICAgImxpbWl0IjogMTAKICB9Cn0=)
 
 ```
 {
@@ -333,7 +333,7 @@ By default all queries return transaction objects since a "row" in BitDB is a tr
 
 For example, if we were looking for a specific match in an output, we can ask the query to return the actual matched output instead of the full transaction, using MongoDB's project and $ operator:
 
-[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAiZSI6IHsgIm91dC5iMSI6ICJoZXgiIH0sCiAgInEiOiB7CiAgICAiZmluZCI6IHsgIm91dC5iMSI6ICI2ZDAyIiB9LAogICAgImxpbWl0IjogMTAsCiAgICAicHJvamVjdCI6IHsKICAgICAgIm91dC4kIjogMQogICAgfQogIH0KfQ==)
+[Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAiZSI6IHsgIm91dC5iMSI6ICJoZXgiIH0sCiAgInEiOiB7CiAgICAiZmluZCI6IHsgIm91dC5iMSI6ICI2ZDAyIiB9LAogICAgImxpbWl0IjogMTAsCiAgICAicHJvamVjdCI6IHsKICAgICAgIm91dC4kIjogMQogICAgfQogIH0KfQ==)
 
 ```
 {
@@ -362,7 +362,7 @@ In this section, pay attention to `.r.f` under every query.
 
 Here's a simple example for getting all "confirmed" posts (`"db": ["c"]`) from Memo.cash protocol and extracting out the `.blk.i`, `.blk.t`, and `.out[1].s2` attributes:
 
-[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogeyAib3V0LmgxIjogIjZkMDIiIH0KICB9LAogICJyIjogewogICAgImYiOiAiWyAuW10gfCB7IGJsb2NrOiAuYmxrLmk/LCB0aW1lc3RhbXA6IC5ibGsudD8sIGNvbnRlbnQ6IC5vdXRbMV0uczIgfV0iCiAgfQp9)
+[Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogeyAib3V0LmgxIjogIjZkMDIiIH0KICB9LAogICJyIjogewogICAgImYiOiAiWyAuW10gfCB7IGJsb2NrOiAuYmxrLmk/LCB0aW1lc3RhbXA6IC5ibGsudD8sIGNvbnRlbnQ6IC5vdXRbMV0uczIgfV0iCiAgfQp9)
 
 ```
 {
@@ -383,7 +383,7 @@ Using the [variables operator](https://stedolan.github.io/jq/manual/#Advancedfea
 
 In the example below, assign the `$blk` and `$tx` variables, and then use them later on in the last pipeline stage:
 
-[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAiJHRleHQiOiB7ICIkc2VhcmNoIjogImJldCIgfSwKICAgICAgIm91dC5oMSI6ICI2ZDAyIgogICAgfSwKICAgICJsaW1pdCI6IDEwCiAgfSwKICAiciI6IHsKICAgICJmIjogIlsgLltdIHwgLmJsayBhcyAkYmxrIHwgLnR4IGFzICR0eCB8IC5vdXRbMV0gfCB7dW5peF90aW1lOiAkYmxrLnQsIGJsb2NrOiAkYmxrLmksIHR4OiAkdHguaCwgbXNnOiAuczJ9IF0iCiAgfQp9)
+[Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAiJHRleHQiOiB7ICIkc2VhcmNoIjogImJldCIgfSwKICAgICAgIm91dC5oMSI6ICI2ZDAyIgogICAgfSwKICAgICJsaW1pdCI6IDEwCiAgfSwKICAiciI6IHsKICAgICJmIjogIlsgLltdIHwgLmJsayBhcyAkYmxrIHwgLnR4IGFzICR0eCB8IC5vdXRbMV0gfCB7dW5peF90aW1lOiAkYmxrLnQsIGJsb2NrOiAkYmxrLmksIHR4OiAkdHguaCwgbXNnOiAuczJ9IF0iCiAgfQp9)
 
 ```
 {
@@ -408,7 +408,7 @@ Using the [string interpolation](https://stedolan.github.io/jq/manual/#Stringint
 
 In the example below, we parse the SLP (Simple Ledger Protocol) Genesis transaction items and create a new string called `"title"` (as well as a normal attribute `document_url`):
 
-[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogeyAib3V0LmgxIjogIjUzNGM1MDAwIiwgIm91dC5zMyI6ICJHRU5FU0lTIiB9LAogICAgImxpbWl0IjogMjAsCiAgICAicHJvamVjdCI6IHsgIm91dC4kIjogMSwgIl9pZCI6IDAgfQogIH0sCiAgInIiOiB7CiAgICAiZiI6ICJbLltdIHwgLm91dFswXSB8IHt0aXRsZTogXCJbXFwoLnM0KV0gXFwoLnM1KVwiLCBkb2N1bWVudF91cmw6IC5zNn0gXSIKICB9Cn0=)
+[Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogeyAib3V0LmgxIjogIjUzNGM1MDAwIiwgIm91dC5zMyI6ICJHRU5FU0lTIiB9LAogICAgImxpbWl0IjogMjAsCiAgICAicHJvamVjdCI6IHsgIm91dC4kIjogMSwgIl9pZCI6IDAgfQogIH0sCiAgInIiOiB7CiAgICAiZiI6ICJbLltdIHwgLm91dFswXSB8IHt0aXRsZTogXCJbXFwoLnM0KV0gXFwoLnM1KVwiLCBkb2N1bWVudF91cmw6IC5zNn0gXSIKICB9Cn0=)
 
 ```
 {
@@ -433,7 +433,7 @@ In the example below, we parse the SLP (Simple Ledger Protocol) Genesis transact
 
 This makes a bitquery request, parses out the `s2` attributes from every output, and joins them to create a full HTML text.
 
-[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsgImZpbmQiOiB7ICJ0eC5oIjogImZhNjlmYjUzYmI0NWNkOWRmMzc1ZjkzZjZjY2E1MmQwNDRlNDUwNWVkYTVjZTFiOTUwNGFlMmM2YTk5OWFlMjciIH0sICJsaW1pdCI6IDEgfSwKICAiciI6IHsgImYiOiAiWy5bMF0ub3V0W10gfCAuczJdIHwgW3sgaHRtbDogam9pbihcIlwiKSB9XSIgfQp9)
+[Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAicSI6IHsgImZpbmQiOiB7ICJ0eC5oIjogImZhNjlmYjUzYmI0NWNkOWRmMzc1ZjkzZjZjY2E1MmQwNDRlNDUwNWVkYTVjZTFiOTUwNGFlMmM2YTk5OWFlMjciIH0sICJsaW1pdCI6IDEgfSwKICAiciI6IHsgImYiOiAiWy5bMF0ub3V0W10gfCAuczJdIHwgW3sgaHRtbDogam9pbihcIlwiKSB9XSIgfQp9)
 
 ```
 {
@@ -453,7 +453,7 @@ To do this we need to filter out the outputs with address that's not the sender'
 2. Then through `r.f`, it only selects the outputs that do not match the sender address
 
 
-[Try Query](https://bitdb.fountainhead.cash/v3/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAib3V0LmUuYSI6ICJxcTRrcDN3M3loaHZ5NGdtNGpnZXphNHZ1czh2cHhncndjOTBuOHJoeGUiCiAgICB9LAogICAgImxpbWl0IjogMTAwMCwKICAgICJwcm9qZWN0IjogewogICAgICAib3V0LmUiOiAxCiAgICB9CiAgfSwKICAiciI6IHsKICAgICJmIjogIlsuW10gfCAub3V0W10gfCAuZSAgfCBzZWxlY3QoLmEgYW5kIC5hICE9IFwicXE0a3AzdzN5aGh2eTRnbTRqZ2V6YTR2dXM4dnB4Z3J3YzkwbjhyaHhlXCIpIHwgLiB8IHthZGRyOiAuYSwgdmFsdWU6IC52fV0iCiAgfQp9)
+[Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAib3V0LmUuYSI6ICJxcTRrcDN3M3loaHZ5NGdtNGpnZXphNHZ1czh2cHhncndjOTBuOHJoeGUiCiAgICB9LAogICAgImxpbWl0IjogMTAwMCwKICAgICJwcm9qZWN0IjogewogICAgICAib3V0LmUiOiAxCiAgICB9CiAgfSwKICAiciI6IHsKICAgICJmIjogIlsuW10gfCAub3V0W10gfCAuZSAgfCBzZWxlY3QoLmEgYW5kIC5hICE9IFwicXE0a3AzdzN5aGh2eTRnbTRqZ2V6YTR2dXM4dnB4Z3J3YzkwbjhyaHhlXCIpIHwgLiB8IHthZGRyOiAuYSwgdmFsdWU6IC52fV0iCiAgfQp9)
 
 ```
 {

@@ -8,9 +8,9 @@ sidebar_label: Build a Bitcoin App in 5 Minutes
 
 > HTML and JavaScript. That's all!
 >
-> You don't even need to set up a server, this demo will run server-less, leveraging the bitdb.network public endpoint.
+> You don't even need to set up a server, this demo will run server-less, leveraging the bitdb.fountainhead.cash public endpoint.
 
-Let's build a bitcoin powered web app using a public BitDB Full Node at bitdb.network. 
+Let's build a bitcoin powered web app using a public BitDB Full Node at bitdb.fountainhead.cash. 
 
 The app will be 100% frontend (No server) and will fetch and display contents from [memo.cash](https://memo.cash) transactions from bitcoin through bitdb. The web app will look like this:
 
@@ -23,11 +23,11 @@ The app will be 100% frontend (No server) and will fetch and display contents fr
 ---
 
 
-## Step 1. Get bitdb.network public node API key
+## Step 1. Get bitdb.fountainhead.cash public node API key
 
-[bitdb.network](https://bitdb.network) is a full node implementation of BitDB with a free HTTP API endpoint. The endpoint is completely free but you first need to sign up and get an API key (The API key is just for DDOS protection)
+[bitdb.fountainhead.cash](https://bitdb.fountainhead.cash) is a full node implementation of BitDB with a free HTTP API endpoint. The endpoint is completely free but you first need to sign up and get an API key (The API key is just for DDOS protection)
 
-[[Get bitdb.network API Key]](https://bitdb.network/v2/dashboard)
+[[Get bitdb.fountainhead.cash API Key]](https://bitdb.fountainhead.cash/dashboard)
 
 <br>
 
@@ -142,14 +142,14 @@ var query = {
 // Turn the query into base64 encoded string.
 // This is required for accessing a public bitdb node
 var b64 = btoa(JSON.stringify(query));
-var url = "https://bitdb.network/q/" + b64;
+var url = "https://bitdb.fountainhead.cash/q/" + b64;
 ​
 // Attach API KEY as header
 var header = {
   headers: { key: [YOUR API KEY GOES HERE] }
 };
 ​
-// Make an HTTP request to bitdb.network public endpoint
+// Make an HTTP request to bitdb.fountainhead.cash public endpoint
 fetch(url, header).then(function(r) {
   return r.json()
 }).then(function(r) {

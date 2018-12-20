@@ -43,7 +43,7 @@ const siteConfig = {
     { href: "https://github.com/fountainhead-cash/bitdbdoc", label: "Edit This Page" },
     // { href: "https://twitter.com/fountainhead-cash", label: "Twitter" },
     { href: "https://t.me/fountainheadcash", label: "Chat" },
-    { href: "https://bitdb.fountainhead.cash/v3/explorer", label: "Explorer" },
+    { href: "https://bitdb.fountainhead.cash/explorer", label: "Explorer" },
 
     /*
     {doc: 'doc4', label: 'API'},

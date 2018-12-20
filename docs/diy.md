@@ -22,7 +22,7 @@ That's BitDB.
 
 ### B. Open Source and Decentralized
 
-Second, BitDB is completely open source. There's a free public API endpoint you can use (https://bitdb.network) but the point is that anyone can run a BitDB node if they have a Bitcoin node running. The future plan is to encourage proliferation of various public nodes.
+Second, BitDB is completely open source. There's a free public API endpoint you can use (https://bitdb.fountainhead.cash) but the point is that anyone can run a BitDB node if they have a Bitcoin node running. The future plan is to encourage proliferation of various public nodes.
 
 Eventually you won't even need a server to build an app. Imagine building apps with no server to maintain, yet you still make money from users transacting in bitcoins.
 

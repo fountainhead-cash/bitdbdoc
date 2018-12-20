@@ -41,5 +41,5 @@ Here's the current landscape of bitcoin ecosystem and why BitDB is valuable or n
 
 It's important to note the main assumption of BitDB is that the base layer has the potential to scale on-chain infinitely, without sacrificing security provided by Proof of Work.
 
-Today the only chain that matches this vision is BCH, and this is why the [bitdb.network](https://bitdb.network) node runs on BCH network today.
+Today the only chain that matches this vision is BCH, and this is why the [bitdb.fountainhead.cash](https://bitdb.fountainhead.cash) node runs on BCH network today.
 

@@ -98,9 +98,9 @@ BitDB can be queried in two ways:
 1. **Direct:** If you're running your own BitDB node, you can query your own database instance directly, through `mongodb://` url.
 2. **Via HTTP:** But most people don't need to run their own BitDB node, especially if you just want to try building things quickly.
 
-Here we will use the HTTP method to connect to a public bitdb node at [https://bitdb.network](https://bitdb.network) for making requests.
+Here we will use the HTTP method to connect to a public bitdb node at [https://bitdb.fountainhead.cash](https://bitdb.fountainhead.cash) for making requests.
 
-If you're ready, go to the [API Dashboard](https://bitdb.network/v3/dashboard) to get the API key and try running the code!
+If you're ready, go to the [API Dashboard](https://bitdb.fountainhead.cash/dashboard) to get the API key and try running the code!
 
 
 ## 4. Learn More
