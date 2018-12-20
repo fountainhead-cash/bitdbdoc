@@ -23,8 +23,8 @@ const users = [
 const siteConfig = {
   title: 'bitdb', // Title for your website.
   tagline: 'Random Access Memory for Bitcoin',
-  url: 'https://bitdbdocs.fountainhead.cash', // Your website URL
-  cname: 'bitdbdocs.fountainhead.cash',
+  url: 'https://docs.fountainhead.cash', // Your website URL
+  cname: 'docs.fountainhead.cash',
   baseUrl: '/',
   //baseUrl: '/bitdbdoc/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
