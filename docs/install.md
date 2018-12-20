@@ -75,7 +75,7 @@ Once you've configured all of the above, you can install BitDB.
 First, clone the repository:
 
 ```
-$ git clone https://github.com/21centurymotorcompany/bitd.git
+$ git clone https://github.com/fountainhead-cash/bitd.git
 ```
 
 Install dependencies:

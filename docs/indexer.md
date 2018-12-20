@@ -10,7 +10,7 @@ The second task is to store it into the NoSQL database backend, currently MongoD
 
 ## 1. How BitDB parses Bitcoin Transactions
 
-We can think of each bitcoin transaction as a DNA that needs to be expressed into a meaningful protein. This is what BitDB Indexer does before storing into the database. [View Module](https://github.com/21centurymotorcompany/tna)
+We can think of each bitcoin transaction as a DNA that needs to be expressed into a meaningful protein. This is what BitDB Indexer does before storing into the database. [View Module](https://github.com/fountainhead-cash/tna)
 
 ![protein](assets/protein.png)
 

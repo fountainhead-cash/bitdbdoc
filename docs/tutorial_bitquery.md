@@ -14,7 +14,7 @@ While useful, this language was rough around thte edges, lacked some critical fe
 
 Today I am releasing [Bitquery](https://bitdbdocs.fountainhead.cash/docs/query_v3), **a Turing complete query language for building immutable APIs on Bitcoin**.
 
-Also, I'm open sourcing [Bitqueryd](https://github.com/21centurymotorcompany/bitqueryd), the query engine that lets you interact with BitDB using bitquery language.
+Also, I'm open sourcing [Bitqueryd](https://github.com/fountainhead-cash/bitqueryd), the query engine that lets you interact with BitDB using bitquery language.
 
 
 
@@ -22,7 +22,7 @@ Also, I'm open sourcing [Bitqueryd](https://github.com/21centurymotorcompany/bit
 
 
 
-Note that while Bitquery is the default query language of BitDB, it's a completely decoupled from the [core bitd](https://github.com/21centurymotorcompany/bitd) module to maximize extensibility of each module going forward.
+Note that while Bitquery is the default query language of BitDB, it's a completely decoupled from the [core bitd](https://github.com/fountainhead-cash/bitd) module to maximize extensibility of each module going forward.
 
 - **Bitd:** An autonomous engine that **writes** to BitDB
 
