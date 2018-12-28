@@ -254,7 +254,7 @@ Find all transactions sent from the address `qq4kp3w3yhhvy4gm4jgeza4vus8vpxgrwc9
 
 > The "in" array contains input scripts, which contain the graph structure named "e" (edge) that links each input to the previous transaction
 > So if you want to query all transactions input edge address, you use "in.e.a" (input.edge.address)
-> Learn more [here](https://bitdbdocs.fountainhead.cash/docs/indexer#level-3-graph)
+> Learn more [here](https://docs.fountainhead.cash/docs/indexer#level-3-graph)
 
 [Try Query](https://bitdb.fountainhead.cash/explorer/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAiaW4uZS5hIjogInFxNGtwM3czeWhodnk0Z200amdlemE0dnVzOHZweGdyd2M5MG44cmh4ZSIKICAgIH0sCiAgICAibGltaXQiOiAxMAogIH0KfQ==)
 
@@ -354,7 +354,7 @@ This section is about the next attribute: "r" (response). Currently there's only
 
 Bitquery uses a Turing complete data processing language that's very well fit for this purpose. It's called [jq](https://en.wikipedia.org/wiki/Jq_(programming_language)).
 
-> Learn more about the processing fuiction in detail [here](https://bitdbdocs.fountainhead.cash/docs/query_v3#c-processing)
+> Learn more about the processing fuiction in detail [here](https://docs.fountainhead.cash/docs/query_v3#c-processing)
 
 In this section, pay attention to `.r.f` under every query.
 

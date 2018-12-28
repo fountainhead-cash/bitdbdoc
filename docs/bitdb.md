@@ -134,9 +134,9 @@ It's just a regular MongoDB query wrapped in a meta-query object "q":
 
 This type of powerful query is possible because BitDB crawls, parses, and indexes all Bitcoin transactions in a structured document format, to which you can run any complex queries.
 
-> Learn more about BitDB Document Format [here](https://bitdbdocs.fountainhead.cash/docs/indexer)
+> Learn more about BitDB Document Format [here](https://docs.fountainhead.cash/docs/indexer)
 >
-> Learn more about BitDB Query Language [here](https://bitdbdocs.fountainhead.cash/docs/query_v3)
+> Learn more about BitDB Query Language [here](https://docs.fountainhead.cash/docs/query_v3)
 
 Also, since the query language itself is JSON, the query is portable, can be implemented in any programming language, and can even be sent over HTTP. BitDB nodes can provide HTTP API endpoints that decentralized 3rd party applications can connect to.
 

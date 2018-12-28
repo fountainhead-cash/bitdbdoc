@@ -16,7 +16,7 @@ sidebar_label: Query Engine
 
 Bitquery is a query language implementation for [BitDB](https://bitdb.fountainhead.cash), a universal bitcoin database.
 
-Once the BitDB [crawler](https://bitdbdocs.fountainhead.cash/docs/crawler) and [indexer](indexer) are up and running, you can query your BitDB node any way you want. It's just a MongoDB instance after all.
+Once the BitDB [crawler](https://docs.fountainhead.cash/docs/crawler) and [indexer](indexer) are up and running, you can query your BitDB node any way you want. It's just a MongoDB instance after all.
 
 Because the **WRITE** (crawling + indexing) is deterministic (like a mathematical function), we can be sure that querying BitDB will be equivalent to querying Bitcoin.
 

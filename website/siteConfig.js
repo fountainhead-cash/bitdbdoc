@@ -25,7 +25,7 @@ const siteConfig = {
   tagline: 'Random Access Memory for Bitcoin',
   url: 'https://docs.fountainhead.cash', // Your website URL
   cname: 'docs.fountainhead.cash',
-  baseUrl: '/bitdbdoc/',
+  baseUrl: '/',
   //baseUrl: '/bitdbdoc/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',

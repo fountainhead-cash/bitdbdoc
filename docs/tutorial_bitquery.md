@@ -12,7 +12,7 @@ If you've tried BitDB, you probably used the built-in JSON based query language.
 
 While useful, this language was rough around thte edges, lacked some critical features, and I was far from satisfied with the expressive power and extensibility of the language. I've been internally experimenting and iterating on different approaches, and have finally reached a point where I can officially announce it (as well as give it a name).
 
-Today I am releasing [Bitquery](https://bitdbdocs.fountainhead.cash/docs/query_v3), **a Turing complete query language for building immutable APIs on Bitcoin**.
+Today I am releasing [Bitquery](https://docs.fountainhead.cash/docs/query_v3), **a Turing complete query language for building immutable APIs on Bitcoin**.
 
 Also, I'm open sourcing [Bitqueryd](https://github.com/fountainhead-cash/bitqueryd), the query engine that lets you interact with BitDB using bitquery language.
 
@@ -117,7 +117,7 @@ BitDB transforms it into a structured object and stores it into database, like t
 }
 ```
 
-> You can learn more about what each attribute means [here](https://bitdbdocs.fountainhead.cash/docs/indexer)
+> You can learn more about what each attribute means [here](https://docs.fountainhead.cash/docs/indexer)
 
 So how do we get the data OUT of BitDB?
 
@@ -263,7 +263,7 @@ Here's what's going on:
 
 
 
-> You can learn more about the encoding scheme [here](https://bitdbdocs.fountainhead.cash/docs/query_v3#a-encoding)
+> You can learn more about the encoding scheme [here](https://docs.fountainhead.cash/docs/query_v3#a-encoding)
 
 
 
