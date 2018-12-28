@@ -48,14 +48,14 @@
 <p><img src="/docs/assets/memoprotocol.png" alt="memoprotocol"></p>
 <p>This is just one example protocol, but most other OP_RETURN protocols work in similar ways. In this case there are 3 push data: <code>OP_RETURN</code>, <code>6d01</code>, and <code>6d656d6f</code></p>
 <p>BitDB turns this into a structured document and stores in the database.</p>
-<p>Then through <a href="query_v3">Bitquery</a> it lets you query the database easily, with attributes like.</p>
+<p>Then through <a href="https://docs.fountainhead.cash/docs/query_v3">Bitquery</a> it lets you query the database easily, with attributes like.</p>
 <ul>
 <li><strong>out.b0</strong>: <code>{ &quot;op&quot;: 106 }</code> (OP_RETURN's code is 106)</li>
 <li><strong>out.b1</strong>: base64 encoded version of 0x6d01</li>
 <li><strong>out.b2</strong>: base64 encoded version of 0x6d656d6f</li>
 </ul>
 <blockquote>
-<p>To learn more about the Bitdb document format, see <a href="indexer#2-bitdb-document-format">here</a></p>
+<p>To learn more about the Bitdb document format, see <a href="https://docs.fountainhead.cash/docs/indexer#2-bitdb-document-format">here</a></p>
 </blockquote>
 <p>Now that we understand how Memo's protocol works, let's look at the actual &quot;action&quot; that we're interested in. We only want to fetch all the &quot;Post memo&quot; actions and display them.</p>
 <p><img src="/docs/assets/memopost.png" alt="memoaction"></p>
@@ -107,7 +107,7 @@
 <li><strong>q:</strong> Inside the q is just a regular MongoDB query.
 <ul>
 <li><strong>find:</strong> It's looking for a match for &quot;out.h1&quot;: &quot;6d02&quot; ('h'-prefixed variables are used for hex-encoded queries)</li>
-<li><strong>project:</strong> This is a special MongoDB projection operation that <a href="query_v3#4-only-return-the-matched-part">only returns a matched subdocument instead of the entire document</a>. In this case, our query will match with a transaction's output, and without this clause it will return the entire transaction. We only want it to return the OP_RETURN output that matched, which is why we've added this line.</li>
+<li><strong>project:</strong> This is a special MongoDB projection operation that <a href="https://docs.fountainhead.cash/docs/query_v3#4-only-return-the-matched-part">only returns a matched subdocument instead of the entire document</a>. In this case, our query will match with a transaction's output, and without this clause it will return the entire transaction. We only want it to return the OP_RETURN output that matched, which is why we've added this line.</li>
 </ul></li>
 <li><strong>r:</strong> the <code>r.f</code> is a <a href="https://stedolan.github.io/jq/">jq</a> expression that transforms the query result into another format. This is the part that lets you build your own custom API from Bitquery. In this case, it's taking the query response and extracting out its <code>s2</code> attribute (and assigning to a custom variable &quot;msg&quot;) to create the final result.</li>
 </ol>

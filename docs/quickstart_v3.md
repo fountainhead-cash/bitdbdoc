@@ -80,7 +80,7 @@ Here's an example of what BitDB saves into the database (It's a single bitcoin t
 }
 ```
 
-> To learn more about how BitDB creates this structure, see [BitDB 101](intro_v3#bitdb-101)
+> To learn more about how BitDB creates this structure, see [BitDB 101](https://docs.fountainhead.cash/docs/intro_v3#bitdb-101)
 
 ## 2. Try Queries Online
 
@@ -88,7 +88,7 @@ To get familiar with how bitdb queries work, go to the Intro documentation and t
 
 **[Try Bitquery Online](intro_v3#query-examples)**
 
-> To make sense of what the results mean, see [BitDB 101](intro_v3#bitdb-101)
+> To make sense of what the results mean, see [BitDB 101](https://docs.fountainhead.cash/docs/intro_v3#bitdb-101)
 
 
 ## 3. Try Queries Programmatically
@@ -100,11 +100,9 @@ BitDB can be queried in two ways:
 
 Here we will use the HTTP method to connect to a public bitdb node at [https://bitdb.fountainhead.cash](https://bitdb.fountainhead.cash) for making requests.
 
-If you're ready, go to the [API Dashboard](https://bitdb.fountainhead.cash/dashboard) to get the API key and try running the code!
-
 
 ## 4. Learn More
 
 To learn more about how all this works in detail, start by reading the introduction:
 
-[Read BitDB Introduction](intro_v3)
+[Read BitDB Introduction](https://docs.fountainhead.cash/docs/intro_v3)

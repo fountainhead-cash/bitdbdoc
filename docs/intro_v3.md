@@ -158,11 +158,11 @@ Now go through the rest of the tutorial and try out all the queries to get a gra
 
 ## Query Examples
 
-The Bitquery query language contains [multiple attributes](query_v3#4-syntax). (Example: the `"v"` attribute refers to the query language protocol version, which is currently 3)
+The Bitquery query language contains [multiple attributes](https://docs.fountainhead.cash/docs/query_v3#4-syntax). (Example: the `"v"` attribute refers to the query language protocol version, which is currently 3)
 
 In this section we will take a look at some usage examples of the second attribute `"q"`.
 
-This is the main part that contains the actual MongoDB query. [Learn more](query_v3#b-query)
+This is the main part that contains the actual MongoDB query. [Learn more](https://docs.fountainhead.cash/docs/query_v3#b-query)
 
 
 ### 1. Exact String Match

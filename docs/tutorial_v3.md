@@ -43,13 +43,13 @@ This is just one example protocol, but most other OP_RETURN protocols work in si
 
 BitDB turns this into a structured document and stores in the database.
 
-Then through [Bitquery](query_v3) it lets you query the database easily, with attributes like.
+Then through [Bitquery](https://docs.fountainhead.cash/docs/query_v3) it lets you query the database easily, with attributes like.
 
 - **out.b0**: `{ "op": 106 }` (OP_RETURN's code is 106)
 - **out.b1**: base64 encoded version of 0x6d01
 - **out.b2**: base64 encoded version of 0x6d656d6f
 
-> To learn more about the Bitdb document format, see [here](indexer#2-bitdb-document-format)
+> To learn more about the Bitdb document format, see [here](https://docs.fountainhead.cash/docs/indexer#2-bitdb-document-format)
 
 Now that we understand how Memo's protocol works, let's look at the actual "action" that we're interested in. We only want to fetch all the "Post memo" actions and display them.
 
@@ -108,7 +108,7 @@ var query = {
 1. **v:** 2. we're using API version 3 and must specify this in the query protocol.
 2. **q:** Inside the q is just a regular MongoDB query.
     - **find:** It's looking for a match for "out.h1": "6d02" ('h'-prefixed variables are used for hex-encoded queries)
-    - **project:** This is a special MongoDB projection operation that [only returns a matched subdocument instead of the entire document](query_v3#4-only-return-the-matched-part). In this case, our query will match with a transaction's output, and without this clause it will return the entire transaction. We only want it to return the OP_RETURN output that matched, which is why we've added this line.
+    - **project:** This is a special MongoDB projection operation that [only returns a matched subdocument instead of the entire document](https://docs.fountainhead.cash/docs/query_v3#4-only-return-the-matched-part). In this case, our query will match with a transaction's output, and without this clause it will return the entire transaction. We only want it to return the OP_RETURN output that matched, which is why we've added this line.
 3. **r:** the `r.f` is a [jq](https://stedolan.github.io/jq/) expression that transforms the query result into another format. This is the part that lets you build your own custom API from Bitquery. In this case, it's taking the query response and extracting out its `s2` attribute (and assigning to a custom variable "msg") to create the final result.
 
 
